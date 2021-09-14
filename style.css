@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+header{
+    height: 390px;
+    width: 100%;
+    background-color: bisque;
+    padding-top: 100px;
+    background-image: url(https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.content-wrap h1{
+    padding-bottom: 18px;
+    color:white;
+}
+.content-wrap p{
+    padding-bottom:10px;
+    color:white;
+}
+.content-wrap button{
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid orangered;
+    background-color: orangered;
+    cursor: pointer;
+    margin-top: 35px;
+}
+.content-wrap button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+}
+
+/* Section A */
+.about{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+}
+.about h2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    color: teal;
+    width: 100%;
+}
+.about p{
+    padding: 20px 100px;
+    color: black
+}
+
+
+
+/* Section B */
+main .services-section{
+    width: 100%;
+    height: 80vh;
+}
+.services-section h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    color: teal;
+    width: 100%;
+}
+.service-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-cards{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(223, 222, 222);
+    float: left;
+    /* margin: 100px 100px; */
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); */
+    box-shadow: 0 5px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid gray;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.service-cards img{
+    height: 200px;
+    width: 100%;
+}
+.service-cards h3{
+    padding: 20px 0px 10px;
+    font-size: 18px;
+}
+.service-cards p{
+    max-width: 250px;
+    font-size: 14px;
+    /* text-align: justify; */
+    line-height: 16px;
+    padding-bottom: 15px;
+    color: rgb(77, 72, 72);
+}
+.service-cards button{
+    height: 30px;
+    width: 80px;
+    border-radius: 4px;
+    border:1px solid cadetblue;
+    background-color: cadetblue;
+    color: black;
+}
+
+/* Section C */
+
+.contact-form{
+    height: 600px;
+    width: 100%;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-form h2{
+    padding-bottom: 30px;
+    font-size: 32px;
+    color: teal;
+    width: 100%;
+}
+.contact-form .form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+}
+.form-container label{
+    padding-bottom: 10px;
+    text-align: left;
+}
+.form-container .name-company-box{
+    height: 30px;
+    width: 80%;
+    padding: 10px;
+}
+.form-container textarea{
+    padding: 10px;
+    width: 80%;
+}
+input[type=submit]{
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    border:1px solid cadetblue;
+    background-color: cadetblue;
+    color: black;
+    cursor: pointer;
+}
+
+/* Footer */
+footer{
+    height: 50px;
+    width: 100%;
+    padding: 12px;
+    background-color: lightgrey;
+}
